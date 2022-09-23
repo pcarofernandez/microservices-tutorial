@@ -1,4 +1,4 @@
-package com.progammingtechie.orderservice.service;
+package com.programmingtechie.orderservice.service;
 
 import java.util.List;
 import java.util.UUID;
@@ -6,11 +6,11 @@ import java.util.UUID;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.progammingtechie.orderservice.dto.OrderLineItemsDto;
-import com.progammingtechie.orderservice.dto.OrderRequest;
-import com.progammingtechie.orderservice.model.Order;
-import com.progammingtechie.orderservice.model.OrderLineItems;
-import com.progammingtechie.orderservice.repository.OrderRepository;
+import com.programmingtechie.orderservice.dto.OrderLineItemsDto;
+import com.programmingtechie.orderservice.dto.OrderRequest;
+import com.programmingtechie.orderservice.model.Order;
+import com.programmingtechie.orderservice.model.OrderLineItems;
+import com.programmingtechie.orderservice.repository.OrderRepository;
 
 import lombok.RequiredArgsConstructor;
 

@@ -1,4 +1,4 @@
-package com.progammingtechie.orderservice.controller;
+package com.programmingtechie.orderservice.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.progammingtechie.orderservice.dto.OrderRequest;
-import com.progammingtechie.orderservice.service.OrderService;
+import com.programmingtechie.orderservice.dto.OrderRequest;
+import com.programmingtechie.orderservice.service.OrderService;
 
 import lombok.RequiredArgsConstructor;
 

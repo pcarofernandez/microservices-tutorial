@@ -1,9 +1,9 @@
-package com.progammingtechie.inventoryservice.controller;
+package com.programmingtechie.inventoryservice.controller;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.progammingtechie.inventoryservice.repository.InventoryRepository;
+import com.programmingtechie.inventoryservice.repository.InventoryRepository;
 
 import lombok.RequiredArgsConstructor;
 

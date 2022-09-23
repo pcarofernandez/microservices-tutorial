@@ -1,4 +1,4 @@
-package com.progammingtechie.orderservice.model;
+package com.programmingtechie.orderservice.model;
 
 import java.math.BigDecimal;
 
