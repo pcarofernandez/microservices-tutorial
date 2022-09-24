@@ -7,34 +7,44 @@
 		<version>2.6.6</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	
+
 	<groupId>com.programmingtechie</groupId>
 	<artifactId>microservices-new</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	
+
 	<modules>
-        <module>product-service</module>
-        <module>order-service</module>
-        <module>inventory-service</module>
-    </modules>
-    
+		<module>product-service</module>
+		<module>order-service</module>
+		<module>inventory-service</module>
+		<module>discovery-server</module>
+		<module>api-gateway</module>
+	</modules>
+
 	<properties>
 		<java.version>1.8</java.version>
+		<spring-cloud.version>2021.0.4</spring-cloud.version>
 	</properties>
-	
+
 	<dependencyManagement>
-	    <dependencies>
-	        <dependency>
-	            <groupId>org.testcontainers</groupId>
-	            <artifactId>testcontainers-bom</artifactId>
-	            <version>1.17.3</version>
-	            <type>pom</type>
-	            <scope>import</scope>
-	        </dependency>
-	    </dependencies>
+		<dependencies>
+			<dependency>
+				<groupId>org.testcontainers</groupId>
+				<artifactId>testcontainers-bom</artifactId>
+				<version>1.17.3</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
 	</dependencyManagement>
-	
+
 	<build>
 		<plugins>
 			<plugin>
